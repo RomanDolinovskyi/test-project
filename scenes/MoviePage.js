@@ -29,7 +29,6 @@ async function addRecomendations(id) {
 }
 
 function renderMoviePage(id, list) {
-  console.log(id);
   let arrList = list.filter(item => item.id === +id);
   let movie = arrList[0];
 
